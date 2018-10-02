@@ -264,7 +264,7 @@ section{
 	z-index:999;
 }
 .navbar-default{
-	background:none;
+	background:black;
 	border:none;
 	margin:0;
 	position:relative;
@@ -278,7 +278,7 @@ a.mobile-menu-opener {
     line-height: 35px;
     color: #fff;
     font-size: 18px;
-    background: #1313134d;
+    background-color: black;
     top: 10px;
 	-webkit-border-radius: 0 5px 5px 0;
 	-moz-border-radius: 0 5px 5px 0;
@@ -313,8 +313,8 @@ a.mobile-menu-opener:hover{
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:focus, 
 .navbar-default .navbar-nav > .active > a:hover{
-	color:#77c7ec;
-	background:none;
+	color:#066db1;
+	background: none;
 }
 .logo {
     float: left;
@@ -322,6 +322,7 @@ a.mobile-menu-opener:hover{
 	text-align:center;
 	padding:15px;
 	overflow:hidden;
+	margin-bottom: 30px; 
 }
 .logo img{
 	-webkit-transition:all 0.3s ease-in-out;
@@ -342,10 +343,10 @@ a.mobile-menu-opener:hover{
 	
 }
 .logo a:hover img{
-	-webkit-transform:scale(1.05);
-	-moz-transform:scale(1.05);
-	-ms-transform:scale(1.05);
-	transform:scale(1.05);
+	-webkit-transform:scale(1.2);
+	-moz-transform:scale(1.2);
+	-ms-transform:scale(1.2);
+	transform:scale(1.2);
 	
 }
 .logo a > img{
@@ -515,21 +516,21 @@ b{
 .social-link li a{
 	display:block;
 }
-.social-link li a .fa{
-	width:40px;
-	text-align:center;
-	vertical-align:middle;
-	line-height:4px;
-	background:#fff0;
-	-webkit-border-radius:50%;
-	-moz-border-radius:50%;
-	border-radius:10%;
-	color:#1cb9c8;
-	font-size:18px;
-	-webkit-transition:all 0.3s ease-in-out;
-	-moz-transition:all 0.3s ease-in-out;
-	-ms-transition:all 0.3s ease-in-out;
-	transition:all 0.3s ease-in-out;
+.social-link li a .fa {
+    width: 34px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 34px;
+    background: #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: #1cb9c8;
+    font-size: 16px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 .social-link li a .fa:hover{
 	background:#1cb9c8;

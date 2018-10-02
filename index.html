@@ -13,7 +13,7 @@
 	<!-- Jscrollpane CSS -->
 	<link href="assets/css/jquery.jscrollpane.custom.css" rel="stylesheet">
 	<!-- Font-awesome-->
-	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!--Google Fonts-->
 	<link href="https://fonts.googleapis.com/css?family=Dosis:400,500,600,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700" rel="stylesheet">
@@ -38,7 +38,7 @@
 					<a href="#" class="navbar-brand"><img src="assets/img/hamid-img.png" alt="Hamid ABDELGHANI LIDRISSI"></a>
 				</div>
 				<div id="navbar">
-					<ul class="nav navbar-nav navbar-right">
+					<ul style="margin-top: 80px" class="nav navbar-nav navbar-right">
 						<li class="active">
 							<a class="page-scroll" href="#home">Accueil</a>
 						</li>
@@ -82,16 +82,11 @@
 												</span>
 											</h2>
 											<ul class="social-link">
-												<li>
-													<a href="https://www.facebook.com/LidrissiHamid" target="_blink">
-
-													</a>
-												</li>
-												<li>
-													<a href="https://www.linkedin.com/in/hamid-abdelghani-lidrissi-754636135/" target="_blink">
-														<img src="assets/img/linkedin-img.png">
-													</a>
-												</li>
+												<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+												<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+												<li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+												<li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+												<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
 											</ul>
 										</div>
 									</div>
@@ -126,16 +121,21 @@
 							<div class="col-xs-12 col-sm-6">
 								<div class="panel-box professional-profile wow fadeInRight">
 									<h2>Profil Professionnel</h2>
-									<p>je suis ingénierie d'informatique et réseau option MIAGE (Méthode informatique applique à la gestion d’entreprise)
-										obtenue à l'EMSI de marrakach,Session 2017/2018</p>
-
-									<a href="assets/file/CV-ABDELGHANI_LIDRISSI_HAMID.pdf" download class="btn btn-primary" target="_blink" title="Pdf"> Télécharger
+									<p>
+										Appartenir à votre société me permettra d’adhérer aux valeurs d’une entreprise maîtrisant ses domaines
+										d’activités et d’entamer
+										un parcours professionnel motivant et répondant à mes inspirations. En contrepartie, je m’engage à m’investir
+										sans réserve et à
+										mettre à votre service tous mes atouts et mes capacités pour l’accomplissement de vos projets et la
+										contribution au développement de votre entreprise.
+									</p>
+									<!-- <a href="assets/file/CV-ABDELGHANI_LIDRISSI_HAMID.pdf" download class="btn btn-primary" target="_blink" title="Pdf"> Télécharger
 										CV
 									</a>
-									<a href="#" class="btn btn-default" data-toggle="modal" data-target="#modal1">Voir CV</a></br></br>
+									<a href="#" class="btn btn-default" data-toggle="modal" data-target="#modal1">Voir CV</a></br></br> -->
 
 									<!-- SATRT MODAL RESUME Hamid -->
-									<div class="modal fade" id="modal1">
+									<!-- <div class="modal fade" id="modal1">
 										<div class="modal-dialog">
 											<div class="modal-content">
 												<div class="modal-header">
@@ -150,36 +150,35 @@
 												</div>
 											</div>
 										</div>
-									</div>
+									</div> -->
 									<!-- END MODAL RESUME HAMID -->
 								</div>
 							</div>
 							<div class="col-xs-12">
 								<div class="my-interests panel-box wow fadeInUp">
 									<h2>Mes intérêts</h2>
-									<p>Mes centres d’intérêt sont multiples Le sport,la lecture font partie de mon quotidien.</p>
 									<ul>
-											<li>
-												<i class="fa fa-plane"></i>
-												<span>Travel</span>
-											</li>
-											<li>
-												<i class="fa fa-shopping-bag"></i>
-												<span>Shopping</span>
-											</li>
-											<li>
-												<i class="fa fa-camera-retro"></i>
-												<span>Photography</span>
-											</li>
-											<li>
-												<i class="fa fa-music"></i>
-												<span>Music</span>
-											</li>
-											<li>
-												<i class="fa fa-film"></i>
-												<span>Movies</span>
-											</li>
-										</ul>
+										<li>
+											<i class="fa fa-plane"></i>
+											<span>Voyage</span>
+										</li>
+										<li>
+											<i class="fa fa-shopping-bag"></i>
+											<span>Sport</span>
+										</li>
+										<li>
+											<i class="fa fa-camera-retro"></i>
+											<span>Photography</span>
+										</li>
+										<li>
+											<i class="fa fa-music"></i>
+											<span>Music</span>
+										</li>
+										<li>
+											<i class="fa fa-film"></i>
+											<span>Films</span>
+										</li>
+									</ul>
 								</div>
 							</div>
 						</div>
@@ -356,13 +355,16 @@
 												<span class="date">avril 2018 - aout 2018 (6 mois)</span>
 											</div>
 											<div class="timeline-body">
-												<p><strong>Stage PFE </strong> : Conception et réalisation d’une application pour la surveillance en temps réel
-													des systèmes photovoltaïques.<br> cette plateforme pourra être facilement la supervision en temps reel d'un
+												<p><strong>Stage PFE </strong> : Conception et réalisation d’une application pour la surveillance en temps
+													réel
+													des systèmes photovoltaïques.<br> cette plateforme pourra être facilement la supervision en temps reel
+													d'un
 													panneau solaire <br>
 													<strong> Langage</strong> : front End : Angular 6 , back End : Java/Spring ( Boot, Data, Security )<br>
 													<strong>Méthodologie </strong> : Agile "scrum"<br>
 
-													<iframe width="500" height="300" src="vid.mp4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+													<iframe width="500" height="300" src="vid.mp4" frameborder="0" allow="autoplay; encrypted-media"
+													 allowfullscreen></iframe>
 
 												</p>
 											</div>
@@ -530,7 +532,8 @@
 										</div>
 										<div class="timeline-panel">
 											<div class="timeline-heading">
-												<h2>Conception et réalisation d’une application Android de la gestion d’agenda personnel avec la géolocalisation
+												<h2>Conception et réalisation d’une application Android de la gestion d’agenda personnel avec la
+													géolocalisation
 													via GPS</h2>
 
 												<span class="date"> 2016</span>
